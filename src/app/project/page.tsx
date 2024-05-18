@@ -11,8 +11,8 @@ export default function page() {
         <>
             <Nav />
 
-            <div className="glow-decorator1"></div>
-            <div className="glow-decorator2"></div>
+            <div className="glow-decorator1" />
+            <div className="glow-decorator2" />
         </>
     )
 }
