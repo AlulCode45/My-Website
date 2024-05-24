@@ -23,9 +23,9 @@ export default function Nav() {
                         </svg>
                     </button>
                     <ul className={`flex-col gap-14 absolute top-16 right-0 bg-black/40 backdrop-filter backdrop-blur-sm shadow-lg p-8 w-screen z-40 rounded-lg transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform lg:static lg:flex lg:flex-row lg:gap-5 lg:transform-none lg:bg-transparent lg:shadow-none lg:p-0`}>
-                        <Link href={'/resume'}><li className="text-white text-sm lg:text-gray-300 hover:font-bold transition-all hover:scale-105 ">Resume</li></Link>
-                        <Link href={'/project'}><li className="text-white text-sm lg:text-gray-300 hover:font-bold transition-all hover:scale-105 mt-5 md:mt-0">Project</li></Link>
-                        <Link href={'/achivement'}><li className="text-white text-sm lg:text-gray-300 hover:font-bold transition-all hover:scale-105 mt-5 md:mt-0">Achivement</li></Link>
+                        <Link href={'#resume'}><li className="text-white text-sm lg:text-gray-300 hover:font-bold transition-all hover:scale-105 ">Resume</li></Link>
+                        <Link href={'#project'}><li className="text-white text-sm lg:text-gray-300 hover:font-bold transition-all hover:scale-105 mt-5 md:mt-0">Project</li></Link>
+                        <Link href={'#achivement'}><li className="text-white text-sm lg:text-gray-300 hover:font-bold transition-all hover:scale-105 mt-5 md:mt-0">Achivement</li></Link>
                     </ul>
                 </div>
             </div>

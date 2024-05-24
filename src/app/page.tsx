@@ -233,7 +233,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <hr className="border-gray-600 my-20" />
+          <hr className="border-gray-600 my-20" id="resume" />
           <div className="flex flex-col md:flex-row">
             <div className="md:w-2/6">
               <h2 className="text-4xl font-bold">Resume</h2>
@@ -272,7 +272,7 @@ export default function Home() {
 
             </div>
           </div>
-          <hr className="border-gray-600 my-20" />
+          <hr className="border-gray-600 my-20" id="skills" />
           <h2 className="text-4xl font-bold text-center">Skills & Experience</h2>
           <div className="grid grid-cols-3 md:grid-cols-6 mt-7 gap-5 md:gap-10">
             <div className="col">
@@ -848,7 +848,7 @@ export default function Home() {
             </div>
           </div>
 
-          <hr className="border-gray-600 my-20" />
+          <hr className="border-gray-600 my-20" id="project" />
           <h2 className="text-4xl font-bold text-center mt-24">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-10">
             <div className="col">
@@ -874,7 +874,7 @@ export default function Home() {
             </div>
           </div>
 
-          <hr className="border-gray-600 my-20" />
+          <hr className="border-gray-600 my-20" id="achivement" />
           <h2 className="text-4xl font-bold text-center mt-24">Sertifikat</h2>
           <div className="masonry mt-8">
             <div className="masonry-item">
