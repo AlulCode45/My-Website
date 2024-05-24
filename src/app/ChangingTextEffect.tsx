@@ -42,7 +42,7 @@ const ChangingTextEffect = () => {
     }, []);
 
     return (
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative' }} >
             <span>{displayedText}</span>
             <span style={{ visibility: cursorVisible ? 'visible' : 'hidden' }}>|</span>
         </div>

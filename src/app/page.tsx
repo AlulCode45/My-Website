@@ -9,13 +9,13 @@ export default function Home() {
       <header>
         <Nav />
         <div className="grid place-content-center text-center w-screen mt-24">
-          <h3 className="text-2xl font-hanken ">Hello i'm <span className="bg-gray-100 p-2 text-black rounded-md">Muhammad Khoyron Ahlaqul F</span></h3>
-          <div className="flex justify-center">
-            <h2 className="text-[75px] font-bold  w-2/3 leading-tight h-[187px]">
+          <h3 className="text-lg lg:text-2xl font-hanken">Hello i'm <span className="bg-gray-100 p-2 text-black rounded-md">Muhammad Khoyron Ahlaqul F</span></h3>
+          <div className="flex justify-center items-center mt-5 lg:mt-0">
+            <h2 className="text-[43px] md:text-[61px] xl:text-[75px] font-bold px-3  lg:w-2/3 leading-tight py-5 lg:h-[187px]">
               <ChangingTextEffect />
             </h2>
           </div>
-          <h3 className="text-3xl font-hanken mt-7">I'm a Web Developer based in Indonesia.</h3>
+          <h3 className="text-xl font-hanken mt-7 lg:mt-7">I'm a Web Developer based in Indonesia.</h3>
           <div className="flex justify-center">
             <button className="p-3 rounded-full border mt-7 px-6 flex hover:bg-gray-100 hover:text-black hover:scale-90 transition-all">Hire Me
               <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 2.4 2.4" enableBackground="new 0 0 64 64" xmlSpace="preserve"><g><path fill="none" stroke="#8a8a8a" strokeWidth={0.075} strokeLinejoin="bevel" strokeMiterlimit="{10}" points="27,15 44,32  27,49  " d="M1.012 0.563L1.65 1.2L1.012 1.837" /></g></svg>
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="container mx-auto px-auto max-w-7xl flex gap-7 w-auto items-center justify-center mt-10">
+        <div className="container mx-auto px-auto max-w-7xl lg:flex gap-7 w-auto items-center justify-center mt-10 hidden">
           {/* figma */}
           <svg className="hover:scale-110 transition-all" width="75px" height="75px" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#1ABCFE" d="M1.069 1c0 -0.161 0.127 -0.292 0.284 -0.292S1.637 0.839 1.637 1c0 0.161 -0.127 0.292 -0.284 0.292C1.196 1.292 1.069 1.161 1.069 1" /><path fill="#0ACF83" d="M0.5 1.583c0 -0.161 0.127 -0.292 0.284 -0.292H1.069v0.292C1.069 1.744 0.941 1.875 0.784 1.875S0.5 1.744 0.5 1.583" /><path fill="#FF7262" d="M1.069 0.125v0.583h0.284c0.157 0 0.284 -0.131 0.284 -0.292C1.637 0.256 1.51 0.125 1.353 0.125z" /><path fill="#F24E1E" d="M0.5 0.417c0 0.161 0.127 0.292 0.284 0.292H1.069V0.125H0.784C0.627 0.125 0.5 0.256 0.5 0.417" /><path fill="#A259FF" d="M0.5 1c0 0.161 0.127 0.292 0.284 0.292H1.069V0.708H0.784C0.627 0.708 0.5 0.839 0.5 1" /></svg>
 
@@ -274,7 +274,7 @@ export default function Home() {
           </div>
           <hr className="border-gray-600 my-20" />
           <h2 className="text-4xl font-bold text-center">Skills & Experience</h2>
-          <div className="grid grid-cols-6 mt-7 gap-10">
+          <div className="grid grid-cols-3 md:grid-cols-6 mt-7 gap-5 md:gap-10">
             <div className="col">
               <svg className="hover:scale-125 transition-all hover:bg-gray-600 hover:p-2 hover:rounded-md"
                 width="100px"
@@ -847,8 +847,129 @@ export default function Home() {
               </svg>
             </div>
           </div>
+
+          <hr className="border-gray-600 my-20" />
+          <h2 className="text-4xl font-bold text-center mt-24">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-10">
+            <div className="col">
+              <Image src={'/assets/Project1.jpg'} alt="Project 1" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="col">
+              <Image src={'/assets/Project2.jpg'} alt="Project 2" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="col">
+              <Image src={'/assets/Project3.jpg'} alt="Project 3" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="col">
+              <Image src={'/assets/Project4.jpg'} alt="Project 4" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="col">
+              <Image src={'/assets/Project5.jpg'} alt="Project 5" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="col">
+              <Image src={'/assets/Project6.jpg'} alt="Project 6" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="col">
+              <Image src={'/assets/Project7.jpg'} alt="Project 7" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+          </div>
+
+          <hr className="border-gray-600 my-20" />
+          <h2 className="text-4xl font-bold text-center mt-24">Sertifikat</h2>
+          <div className="masonry mt-8">
+            <div className="masonry-item">
+              <Image src={'/assets/sertifikat/Sertifikat1.jpg'} alt="Sertifikat 1" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="masonry-item">
+              <Image src={'/assets/sertifikat/Sertifikat2.jpg'} alt="Sertifikat 2" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="masonry-item">
+              <Image src={'/assets/sertifikat/Sertifikat3.png'} alt="Sertifikat 3" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="masonry-item">
+              <Image src={'/assets/sertifikat/Sertifikat4.png'} alt="Sertifikat 4" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="masonry-item">
+              <Image src={'/assets/sertifikat/Sertifikat5.jpg'} alt="Sertifikat 5" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="masonry-item">
+              <Image src={'/assets/sertifikat/Sertifikat6.jpg'} alt="Sertifikat 6" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+            <div className="masonry-item">
+              <Image src={'/assets/sertifikat/Sertifikat7.jpg'} alt="Sertifikat 7" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
+            </div>
+          </div>
+
+
         </div>
-      </main>
+      </main >
+
+      <footer className="mt-12 p-10">
+        <p className="text-center text-gray-400">Copyright &copy; 2024 - Muhammad Khoyron Ahlaqul Firdaus</p>
+        <div className="flex gap-3 justify-center mt-4">
+          <div className="col">
+            <svg fill="#ffff" className="hover:scale-110 transition-all duration-200 cursor-pointer" width="20px" height="20px" viewBox="0 0 1.2 1.2" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M0.867 0.273a0.06 0.06 0 1 0 0.06 0.06 0.06 0.06 0 0 0 -0.06 -0.06m0.23 0.121a0.38 0.38 0 0 0 -0.023 -0.122 0.245 0.245 0 0 0 -0.058 -0.089 0.235 0.235 0 0 0 -0.089 -0.057 0.365 0.365 0 0 0 -0.122 -0.024C0.753 0.1 0.736 0.1 0.6 0.1s-0.153 0 -0.206 0.003a0.365 0.365 0 0 0 -0.122 0.024 0.24 0.24 0 0 0 -0.089 0.057 0.235 0.235 0 0 0 -0.057 0.089 0.365 0.365 0 0 0 -0.024 0.122C0.1 0.447 0.1 0.464 0.1 0.6s0 0.153 0.003 0.206a0.365 0.365 0 0 0 0.024 0.122 0.235 0.235 0 0 0 0.057 0.089 0.24 0.24 0 0 0 0.089 0.057 0.365 0.365 0 0 0 0.122 0.024C0.447 1.1 0.464 1.1 0.6 1.1s0.153 0 0.206 -0.003a0.365 0.365 0 0 0 0.122 -0.024 0.235 0.235 0 0 0 0.089 -0.057 0.242 0.242 0 0 0 0.058 -0.089 0.38 0.38 0 0 0 0.023 -0.122c0 -0.053 0.003 -0.07 0.003 -0.206s0 -0.153 -0.003 -0.206M1.007 0.8a0.28 0.28 0 0 1 -0.017 0.093 0.153 0.153 0 0 1 -0.038 0.057 0.16 0.16 0 0 1 -0.057 0.038 0.28 0.28 0 0 1 -0.093 0.017c-0.05 0.003 -0.069 0.003 -0.2 0.003s-0.15 0 -0.2 -0.003a0.285 0.285 0 0 1 -0.097 -0.015 0.165 0.165 0 0 1 -0.055 -0.038 0.15 0.15 0 0 1 -0.037 -0.057 0.275 0.275 0 0 1 -0.02 -0.095c0 -0.05 -0.003 -0.069 -0.003 -0.2s0 -0.15 0.003 -0.2a0.275 0.275 0 0 1 0.017 -0.095A0.15 0.15 0 0 1 0.25 0.25a0.155 0.155 0 0 1 0.055 -0.04A0.285 0.285 0 0 1 0.4 0.193c0.05 0 0.069 -0.003 0.2 -0.003s0.15 0 0.2 0.003a0.28 0.28 0 0 1 0.093 0.017 0.153 0.153 0 0 1 0.059 0.04 0.155 0.155 0 0 1 0.038 0.055 0.28 0.28 0 0 1 0.017 0.095c0.003 0.05 0.003 0.069 0.003 0.2s-0.001 0.15 -0.003 0.2M0.6 0.344A0.257 0.257 0 1 0 0.857 0.6 0.256 0.256 0 0 0 0.6 0.344m0 0.423A0.167 0.167 0 1 1 0.767 0.6 0.167 0.167 0 0 1 0.6 0.767" /></svg>
+          </div>
+          <div className="col">
+            <svg fill="#ffff" className="hover:scale-110 transition-all duration-200 cursor-pointer" width="20px" height="20px" viewBox="-0.05 -0.05 0.6 0.6" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" >
+              <path d="M0.238 0C0.105 0.007 0 0.116 0.001 0.248a0.245 0.245 0 0 0 0.027 0.112L0.002 0.487a0.01 0.01 0 0 0 0.012 0.011l0.126 -0.03a0.25 0.25 0 0 0 0.107 0.026c0.136 0.002 0.249 -0.105 0.253 -0.24C0.504 0.111 0.384 -0.007 0.238 0zm0.15 0.384a0.195 0.195 0 0 1 -0.138 0.057 0.195 0.195 0 0 1 -0.087 -0.02l-0.018 -0.009 -0.077 0.018 0.016 -0.078 -0.009 -0.017A0.19 0.19 0 0 1 0.055 0.248c0 -0.052 0.02 -0.1 0.057 -0.137a0.196 0.196 0 0 1 0.138 -0.057c0.052 0 0.101 0.02 0.138 0.057a0.192 0.192 0 0 1 0.057 0.137c0 0.051 -0.021 0.101 -0.057 0.137z" />
+              <path d="m0.371 0.301 -0.048 -0.014a0.018 0.018 0 0 0 -0.018 0.005l-0.012 0.012a0.018 0.018 0 0 1 -0.019 0.004c-0.023 -0.009 -0.071 -0.052 -0.083 -0.073a0.017 0.017 0 0 1 0.001 -0.019l0.01 -0.013a0.018 0.018 0 0 0 0.002 -0.018L0.184 0.139a0.018 0.018 0 0 0 -0.028 -0.006c-0.013 0.011 -0.029 0.028 -0.031 0.048 -0.003 0.034 0.011 0.076 0.066 0.127 0.063 0.059 0.114 0.067 0.147 0.059 0.019 -0.004 0.034 -0.023 0.043 -0.037a0.018 0.018 0 0 0 -0.01 -0.027" />
+            </svg>
+          </div>
+          <div className="col">
+            <svg
+              fill="#ffff" className="hover:scale-110 transition-all duration-200 cursor-pointer"
+              width="20px"
+              height="20px"
+              viewBox="0 0 0.6 0.6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                d="M0.575 0.3c0 0.077 -0.007 0.124 -0.024 0.153 -0.017 0.031 -0.037 0.041 -0.079 0.044 -0.029 0.002 -0.102 0.003 -0.172 0.003 -0.07 0 -0.143 -0.001 -0.172 -0.003 -0.041 -0.003 -0.061 -0.013 -0.078 -0.044C0.032 0.424 0.025 0.376 0.025 0.3c0 -0.077 0.007 -0.124 0.024 -0.154 0.017 -0.031 0.038 -0.041 0.078 -0.044C0.156 0.101 0.225 0.1 0.3 0.1c0.075 0 0.144 0.001 0.172 0.003 0.041 0.002 0.061 0.012 0.079 0.044 0.017 0.03 0.025 0.077 0.025 0.153M0.507 0.171c-0.008 -0.015 -0.013 -0.017 -0.038 -0.018 -0.027 -0.002 -0.095 -0.003 -0.169 -0.003 -0.074 0 -0.142 0.001 -0.169 0.003 -0.025 0.002 -0.03 0.004 -0.038 0.018C0.081 0.192 0.075 0.232 0.075 0.3c0 0.068 0.006 0.109 0.018 0.129 0.008 0.014 0.013 0.017 0.038 0.018 0.028 0.002 0.1 0.003 0.169 0.003 0.069 0 0.141 -0.001 0.169 -0.003 0.026 -0.002 0.03 -0.004 0.038 -0.019 0.012 -0.02 0.018 -0.06 0.018 -0.128 0 -0.069 -0.006 -0.109 -0.018 -0.129M0.25 0.225l0.125 0.075 -0.125 0.075z"
+              />
+            </svg>
+          </div>
+          <div className="col">
+            <svg
+              width="20px"
+              height="20px"
+              viewBox="0 0 0.4 0.4"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                fill="#ffff" className="hover:scale-110 transition-all duration-200 cursor-pointer"
+                d="M0.18 0.4V0.213h-0.05V0.145h0.05V0.088C0.18 0.043 0.21 0 0.278 0c0.028 0 0.048 0.003 0.048 0.003l-0.003 0.063h-0.043c-0.025 0 -0.028 0.01 -0.028 0.03v0.05H0.325l-0.003 0.068h-0.07V0.4z"
+              />
+            </svg>
+          </div>
+          <div className="col">
+            <svg
+              fill="#ffff" className="hover:scale-110 transition-all duration-200 cursor-pointer"
+              width="20px"
+              height="20px"
+              viewBox="0 0 0.6 0.6"
+              xmlns="http://www.w3.org/2000/svg"
+              data-name="Layer 1"
+            >
+              <path d="M0.3 0.056a0.25 0.25 0 0 0 -0.079 0.487c0.013 0.002 0.017 -0.005 0.017 -0.012 0 -0.006 0 -0.026 0 -0.047 -0.063 0.012 -0.079 -0.015 -0.084 -0.029a0.091 0.091 0 0 0 -0.026 -0.035c-0.009 -0.005 -0.021 -0.016 0 -0.017a0.05 0.05 0 0 1 0.038 0.026 0.053 0.053 0 0 0 0.073 0.021 0.053 0.053 0 0 1 0.016 -0.033c-0.056 -0.006 -0.114 -0.028 -0.114 -0.123a0.098 0.098 0 0 1 0.026 -0.067 0.09 0.09 0 0 1 0.003 -0.066s0.021 -0.007 0.069 0.026a0.236 0.236 0 0 1 0.125 0c0.048 -0.033 0.069 -0.026 0.069 -0.026a0.09 0.09 0 0 1 0.003 0.066 0.097 0.097 0 0 1 0.026 0.067c0 0.096 -0.058 0.117 -0.114 0.123a0.059 0.059 0 0 1 0.017 0.046c0 0.033 0 0.06 0 0.069 0 0.007 0.005 0.014 0.017 0.012A0.25 0.25 0 0 0 0.3 0.056" />
+            </svg>
+          </div>
+          <div className="col">
+            <svg
+              fill="#ffffff" className="hover:scale-110 transition-all duration-200 cursor-pointer"
+              width="20px"
+              height="20px"
+              viewBox="0 0 0.6 0.6"
+              xmlns="http://www.w3.org/2000/svg"
+              data-name="Layer 1"
+            >
+              <path d="M0.512 0.05H0.088a0.036 0.036 0 0 0 -0.037 0.036v0.429A0.036 0.036 0 0 0 0.088 0.55h0.424a0.036 0.036 0 0 0 0.037 -0.036V0.086A0.036 0.036 0 0 0 0.512 0.05M0.202 0.468h-0.075v-0.225h0.075ZM0.165 0.212a0.039 0.039 0 1 1 0 -0.078 0.039 0.039 0 1 1 0 0.078m0.308 0.257h-0.075v-0.121c0 -0.03 -0.011 -0.05 -0.038 -0.05A0.041 0.041 0 0 0 0.321 0.325a0.05 0.05 0 0 0 -0.003 0.018v0.125h-0.075v-0.225h0.075V0.275a0.075 0.075 0 0 1 0.068 -0.038c0.05 0 0.086 0.032 0.086 0.101Z" />
+            </svg>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
