@@ -9,13 +9,13 @@ export default function Home() {
       <header>
         <Nav />
         <div className="grid place-content-center text-center w-screen mt-24">
-          <h3 className="text-lg lg:text-2xl font-hanken">Hello i'm <span className="bg-gray-100 p-2 text-black rounded-md">Muhammad Khoyron Ahlaqul F</span></h3>
+          <h3 className="text-lg lg:text-2xl font-hanken">Hello i&apos;m <span className="bg-gray-100 p-2 text-black rounded-md">Muhammad Khoyron Ahlaqul F</span></h3>
           <div className="flex justify-center items-center mt-5 lg:mt-0">
             <h2 className="text-[43px] md:text-[61px] xl:text-[75px] font-bold px-3  lg:w-2/3 leading-tight py-5 lg:h-[187px]">
               <ChangingTextEffect />
             </h2>
           </div>
-          <h3 className="text-xl font-hanken mt-7 lg:mt-7">I'm a Web Developer based in Indonesia.</h3>
+          <h3 className="text-xl font-hanken mt-7 lg:mt-7">I&apos;m a Web Developer based in Indonesia.</h3>
           <div className="flex justify-center">
             <button className="p-3 rounded-full border mt-7 px-6 flex hover:bg-gray-100 hover:text-black hover:scale-90 transition-all">Hire Me
               <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 2.4 2.4" enableBackground="new 0 0 64 64" xmlSpace="preserve"><g><path fill="none" stroke="#8a8a8a" strokeWidth={0.075} strokeLinejoin="bevel" strokeMiterlimit="{10}" points="27,15 44,32  27,49  " d="M1.012 0.563L1.65 1.2L1.012 1.837" /></g></svg>
@@ -256,7 +256,7 @@ export default function Home() {
                 <div className="col w-full md:w-3/6">
                   <b className="text-lg">Web Developer</b>
                   <p className="text-sm text-white">EX-SCIENCE</p>
-                  <p className="mt-3 text-gray-200">A leading technology company providing cutting-edge solutions and services tailored to various industries. With our experienced team, we're committed to delivering high-quality products and staying ahead of technological advancements. Our mission is to help clients achieve their goals with top-notch technology solutions, globally accessible services, and continuous innovation.</p>
+                  <p className="mt-3 text-gray-200">A leading technology company providing cutting-edge solutions and services tailored to various industries. With our experienced team, we&apos;re committed to delivering high-quality products and staying ahead of technological advancements. Our mission is to help clients achieve their goals with top-notch technology solutions, globally accessible services, and continuous innovation.</p>
                 </div>
               </div>
               <div className="flex flex-col md:flex-row gap-10">
