@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -20,84 +20,87 @@
 
 html,
 body {
-    max-width: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(to bottom,
-            transparent,
-            rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 .glow-decorator1 {
-    -webkit-backdrop-filter: blur(0px);
-    -webkit-filter: blur(100px);
-    backdrop-filter: blur(0px);
-    background: linear-gradient(180deg, #57aae6 0%, rgb(217, 139, 186) 100%);
-    border-radius: 1000px;
-    filter: blur(100px);
-    flex: none;
-    height: 555px;
-    left: -234px;
-    opacity: .19;
-    position: absolute;
-    top: 202px;
-    width: 578px;
-    z-index: 1;
+  -webkit-backdrop-filter: blur(0px);
+  -webkit-filter: blur(100px);
+  backdrop-filter: blur(0px);
+  background: linear-gradient(180deg, #57aae6 0%, rgb(217, 139, 186) 100%);
+  border-radius: 1000px;
+  filter: blur(100px);
+  flex: none;
+  height: 555px;
+  left: -234px;
+  opacity: 0.19;
+  position: absolute;
+  top: 202px;
+  width: 578px;
+  z-index: 1;
 }
 
 .glow-decorator2 {
-    -webkit-backdrop-filter: blur(0px);
-    -webkit-filter: blur(100px);
-    backdrop-filter: blur(0px);
-    background: linear-gradient(180deg, #57aae6 0%, rgb(217, 139, 186) 100%);
-    border-radius: 119px;
-    filter: blur(100px);
-    flex: none;
-    height: 416px;
-    opacity: .19;
-    position: absolute;
-    right: -82px;
-    top: 104px;
-    width: 414px;
-    z-index: 1
+  -webkit-backdrop-filter: blur(0px);
+  -webkit-filter: blur(100px);
+  backdrop-filter: blur(0px);
+  background: linear-gradient(180deg, #57aae6 0%, rgb(217, 139, 186) 100%);
+  border-radius: 119px;
+  filter: blur(100px);
+  flex: none;
+  height: 416px;
+  opacity: 0.19;
+  position: absolute;
+  right: -82px;
+  top: 104px;
+  width: 414px;
+  z-index: 1;
 }
 
 @layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
 .masonry {
-    column-gap: 2rem;
-    /* Adjust the gap between columns as needed */
+  column-gap: 2rem;
+  /* Adjust the gap between columns as needed */
 }
 
 .masonry-item {
-    break-inside: avoid;
-    margin-bottom: 2rem;
-    /* Adjust the bottom margin as needed */
+  break-inside: avoid;
+  margin-bottom: 2rem;
+  /* Adjust the bottom margin as needed */
 }
 
 /* Responsive masonry columns */
 @media (min-width: 640px) {
-    .masonry {
-        column-count: 2;
-    }
+  .masonry {
+    column-count: 2;
+  }
 }
 
 @media (min-width: 768px) {
-    .masonry {
-        column-count: 3;
-    }
+  .masonry {
+    column-count: 3;
+  }
 }
 
 @media (min-width: 1024px) {
-    .masonry {
-        column-count: 3;
-    }
+  .masonry {
+    column-count: 3;
+  }
 }
