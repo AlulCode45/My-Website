@@ -25,7 +25,20 @@ export default function Home() {
 
         <div className="container mx-auto px-auto max-w-7xl lg:flex gap-7 w-auto items-center justify-center mt-10 hidden">
           {/* figma */}
-          <svg className="hover:scale-110 transition-all" width="75px" height="75px" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#1ABCFE" d="M1.069 1c0 -0.161 0.127 -0.292 0.284 -0.292S1.637 0.839 1.637 1c0 0.161 -0.127 0.292 -0.284 0.292C1.196 1.292 1.069 1.161 1.069 1" /><path fill="#0ACF83" d="M0.5 1.583c0 -0.161 0.127 -0.292 0.284 -0.292H1.069v0.292C1.069 1.744 0.941 1.875 0.784 1.875S0.5 1.744 0.5 1.583" /><path fill="#FF7262" d="M1.069 0.125v0.583h0.284c0.157 0 0.284 -0.131 0.284 -0.292C1.637 0.256 1.51 0.125 1.353 0.125z" /><path fill="#F24E1E" d="M0.5 0.417c0 0.161 0.127 0.292 0.284 0.292H1.069V0.125H0.784C0.627 0.125 0.5 0.256 0.5 0.417" /><path fill="#A259FF" d="M0.5 1c0 0.161 0.127 0.292 0.284 0.292H1.069V0.708H0.784C0.627 0.708 0.5 0.839 0.5 1" /></svg>
+          <svg
+            className="hover:scale-110 transition-all text-white"
+            width="75px"
+            height="75px"
+            viewBox="0 0 75 75"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="currentColor"
+              d="M75 58.088a4.781 4.781 0 0 1 -5.922 -2.25l-10.781 -14.909 -1.563 -2.084 -12.509 17.012a4.581 4.581 0 0 1 -5.631 2.212l16.119 -21.625 -14.994 -19.534a4.984 4.984 0 0 1 5.938 2.081l11.175 15.094 11.238 -15.031a4.484 4.484 0 0 1 5.588 -2.087L67.837 24.688l-7.881 10.259a2.081 2.081 0 0 0 0 3.106l15.013 20.038zM0.006 36.175l1.313 -6.484c3.606 -12.822 18.306 -18.156 28.419 -10.219 5.922 4.653 7.4 11.241 7.109 18.666H3.488C2.947 51.397 12.516 59.403 24.75 55.313a12.75 12.75 0 0 0 8.069 -8.987c0.647 -2.081 1.713 -2.438 3.669 -1.837a16.938 16.938 0 0 1 -8.091 12.366 19.594 19.594 0 0 1 -22.831 -2.916 20.563 20.563 0 0 1 -5.125 -12.056c0 -0.734 -0.25 -1.422 -0.419 -2.081A275 275 0 0 1 0 36.178zm3.522 -0.894h30.169c-0.188 -9.613 -6.253 -16.431 -14.344 -16.494 -9.006 -0.125 -15.45 6.544 -15.847 16.45z"
+            />
+          </svg>
+
 
           {/* linux */}
           <svg className="hover:scale-110 transition-all" width="75px" height="75px" viewBox="0 0 2 2" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#202020" d="M1.667 1.504c-0.013 -0.014 -0.018 -0.04 -0.025 -0.068 -0.006 -0.028 -0.013 -0.057 -0.036 -0.076v0a0.1 0.1 0 0 0 -0.028 -0.017c0.032 -0.093 0.019 -0.186 -0.013 -0.27 -0.039 -0.103 -0.107 -0.193 -0.159 -0.254 -0.058 -0.073 -0.115 -0.143 -0.114 -0.245 0.002 -0.157 0.017 -0.447 -0.259 -0.448q-0.017 0 -0.035 0.002c-0.308 0.025 -0.227 0.35 -0.231 0.459 -0.006 0.08 -0.022 0.142 -0.077 0.221 -0.064 0.077 -0.155 0.201 -0.198 0.33 -0.02 0.061 -0.03 0.123 -0.021 0.182a0.125 0.125 0 0 0 -0.008 0.008c-0.019 0.02 -0.033 0.045 -0.049 0.061 -0.015 0.015 -0.035 0.02 -0.058 0.028 -0.023 0.008 -0.048 0.02 -0.063 0.049v0a0.087 0.087 0 0 0 -0.01 0.042c0 0.013 0.002 0.027 0.004 0.04 0.004 0.028 0.009 0.053 0.003 0.071 -0.018 0.049 -0.02 0.083 -0.008 0.108 0.013 0.025 0.039 0.036 0.068 0.042 0.059 0.013 0.139 0.009 0.202 0.043l0.005 -0.01 -0.005 0.01c0.068 0.035 0.136 0.048 0.191 0.035a0.124 0.124 0 0 0 0.088 -0.069c0.043 0 0.09 -0.018 0.165 -0.022 0.051 -0.004 0.115 0.018 0.188 0.014a0.1 0.1 0 0 0 0.009 0.023l0 0c0.028 0.057 0.081 0.083 0.138 0.078s0.116 -0.038 0.164 -0.095l-0.009 -0.007 0.009 0.007c0.046 -0.056 0.123 -0.079 0.173 -0.11 0.025 -0.015 0.046 -0.035 0.048 -0.062s-0.015 -0.059 -0.052 -0.101" /><path fill="#F8BF11" d="M1.696 1.603c-0.001 0.017 -0.013 0.03 -0.036 0.044 -0.046 0.028 -0.127 0.052 -0.179 0.115 -0.045 0.054 -0.1 0.083 -0.149 0.087s-0.09 -0.016 -0.115 -0.066v0c-0.015 -0.029 -0.009 -0.075 0.004 -0.123s0.031 -0.098 0.034 -0.139v0c0.003 -0.052 0.005 -0.097 0.014 -0.132 0.009 -0.035 0.022 -0.059 0.047 -0.072l0.003 -0.002c0.003 0.045 0.025 0.091 0.064 0.101 0.043 0.011 0.105 -0.025 0.131 -0.056l0.015 -0.001c0.023 -0.001 0.042 0.001 0.062 0.018v0c0.015 0.013 0.022 0.037 0.029 0.064s0.011 0.057 0.03 0.078c0.036 0.04 0.048 0.067 0.046 0.084m-0.872 0.127v0c-0.004 0.054 -0.035 0.084 -0.082 0.095 -0.047 0.011 -0.111 0 -0.175 -0.033 -0.071 -0.037 -0.155 -0.034 -0.208 -0.045 -0.027 -0.006 -0.045 -0.014 -0.053 -0.03 -0.008 -0.016 -0.008 -0.043 0.009 -0.09v0l0 0c0.009 -0.026 0.002 -0.055 -0.002 -0.082 -0.004 -0.027 -0.006 -0.051 0.003 -0.068l0 0c0.012 -0.023 0.029 -0.031 0.05 -0.038 0.021 -0.008 0.047 -0.014 0.067 -0.034l0 0h0c0.018 -0.02 0.033 -0.044 0.049 -0.061 0.014 -0.015 0.028 -0.024 0.048 -0.025h0.001a0.125 0.125 0 0 1 0.012 0.001c0.028 0.004 0.051 0.023 0.074 0.055l0.067 0.121v0c0.018 0.037 0.055 0.078 0.087 0.119 0.032 0.042 0.056 0.083 0.053 0.115" /><path fill="#D6A312" d="M1.156 0.599c-0.005 -0.011 -0.016 -0.021 -0.035 -0.028 -0.039 -0.017 -0.056 -0.018 -0.077 -0.032 -0.035 -0.023 -0.064 -0.03 -0.088 -0.03a0.1 0.1 0 0 0 -0.034 0.006c-0.029 0.01 -0.049 0.031 -0.061 0.043 -0.003 0.002 -0.005 0.004 -0.013 0.01 -0.007 0.005 -0.019 0.014 -0.035 0.026 -0.015 0.011 -0.019 0.025 -0.014 0.042s0.021 0.036 0.05 0.052h0c0.018 0.011 0.03 0.025 0.045 0.036a0.1 0.1 0 0 0 0.024 0.015 0.1 0.1 0 0 0 0.033 0.007c0.031 0.002 0.054 -0.007 0.074 -0.019 0.02 -0.011 0.037 -0.025 0.057 -0.032h0c0.04 -0.013 0.069 -0.038 0.077 -0.062a0.04 0.04 0 0 0 -0.001 -0.034" /><path fill="#202020" d="M1.055 0.657c-0.032 0.017 -0.069 0.037 -0.109 0.037s-0.071 -0.018 -0.093 -0.036c-0.011 -0.009 -0.02 -0.018 -0.027 -0.024 -0.012 -0.009 -0.011 -0.023 -0.006 -0.022 0.008 0.001 0.009 0.012 0.015 0.017 0.007 0.006 0.016 0.015 0.026 0.023 0.021 0.017 0.05 0.033 0.085 0.033s0.077 -0.021 0.102 -0.035c0.014 -0.008 0.033 -0.022 0.047 -0.033 0.011 -0.008 0.011 -0.018 0.02 -0.017s0.003 0.011 -0.011 0.022c-0.013 0.011 -0.034 0.027 -0.05 0.035" /><path fill="#ffffff" d="M1.542 1.337h-0.014c0.011 -0.035 -0.013 -0.06 -0.078 -0.089 -0.067 -0.029 -0.12 -0.026 -0.129 0.033a0.125 0.125 0 0 0 -0.001 0.009 0.125 0.125 0 0 0 -0.015 0.007c-0.032 0.017 -0.049 0.048 -0.058 0.086s-0.012 0.084 -0.015 0.136c-0.002 0.026 -0.012 0.061 -0.023 0.099 -0.109 0.078 -0.261 0.112 -0.39 0.024q-0.013 -0.021 -0.029 -0.041l-0.02 -0.026a0.081 0.081 0 0 0 0.034 -0.006 0.043 0.043 0 0 0 0.023 -0.024c0.008 -0.021 0 -0.051 -0.025 -0.085 -0.025 -0.034 -0.068 -0.072 -0.13 -0.111 -0.046 -0.029 -0.072 -0.064 -0.084 -0.102 -0.012 -0.038 -0.011 -0.079 -0.001 -0.12 0.018 -0.078 0.064 -0.154 0.093 -0.202 0.008 -0.006 0.003 0.011 -0.029 0.071 -0.029 0.055 -0.083 0.182 -0.009 0.281a0.588 0.588 0 0 1 0.047 -0.21c0.041 -0.093 0.127 -0.255 0.134 -0.384 0.004 0.003 0.016 0.011 0.021 0.014 0.016 0.009 0.028 0.023 0.043 0.035a0.106 0.106 0 0 0 0.072 0.025c0.03 0 0.053 -0.01 0.073 -0.021 0.021 -0.012 0.038 -0.025 0.054 -0.031 0.034 -0.011 0.061 -0.029 0.076 -0.051 0.026 0.104 0.087 0.253 0.127 0.326 0.021 0.039 0.063 0.121 0.08 0.22q0.017 -0.001 0.037 0.005c0.047 -0.122 -0.04 -0.253 -0.08 -0.289 -0.016 -0.015 -0.017 -0.022 -0.009 -0.022 0.043 0.038 0.099 0.115 0.12 0.201 0.009 0.039 0.011 0.081 0.001 0.122q0.007 0.003 0.015 0.007c0.075 0.037 0.103 0.069 0.09 0.112" /><path fill="#E6E6E6" d="M1.005 1.008c-0.07 0 -0.137 0.031 -0.195 0.089S0.709 1.238 0.683 1.333l0.008 0.005v0.001c0.059 0.037 0.101 0.075 0.127 0.11 0.027 0.037 0.04 0.073 0.028 0.104a0.064 0.064 0 0 1 -0.034 0.035l-0.005 0.002q0.014 0.018 0.027 0.037c0.118 0.079 0.255 0.05 0.358 -0.021 0.01 -0.035 0.019 -0.067 0.02 -0.087 0.003 -0.052 0.005 -0.099 0.015 -0.14 0.01 -0.041 0.03 -0.079 0.068 -0.099q0.003 -0.002 0.006 -0.003a0.125 0.125 0 0 1 0.003 -0.012c-0.03 -0.078 -0.074 -0.142 -0.126 -0.188s-0.112 -0.069 -0.173 -0.069zm0.296 0.269 0 0.001v0l0 -0.001z" /><path fill="#ffffff" d="M1.16 0.479a0.131 0.131 0 0 1 -0.027 0.082 0.5 0.5 0 0 0 -0.027 -0.011l-0.016 -0.006c0.004 -0.004 0.011 -0.009 0.013 -0.016a0.087 0.087 0 0 0 0.006 -0.03l0 -0.001a0.087 0.087 0 0 0 -0.004 -0.029 0.054 0.054 0 0 0 -0.013 -0.023 0.028 0.028 0 0 0 -0.019 -0.009H1.071a0.029 0.029 0 0 0 -0.019 0.007 0.054 0.054 0 0 0 -0.015 0.022 0.087 0.087 0 0 0 -0.006 0.03v0.001a0.125 0.125 0 0 0 0.001 0.018 0.225 0.225 0 0 0 -0.044 -0.015 0.125 0.125 0 0 1 -0.001 -0.017v-0.002a0.125 0.125 0 0 1 0.011 -0.056 0.1 0.1 0 0 1 0.031 -0.041 0.069 0.069 0 0 1 0.043 -0.015h0.001c0.016 0 0.029 0.004 0.043 0.015a0.1 0.1 0 0 1 0.032 0.041c0.008 0.017 0.012 0.034 0.012 0.054zm-0.236 0.021a0.125 0.125 0 0 0 -0.035 0.016 0.075 0.075 0 0 0 0 -0.019v-0.001a0.087 0.087 0 0 0 -0.006 -0.024 0.05 0.05 0 0 0 -0.012 -0.018 0.02 0.02 0 0 0 -0.015 -0.006 0.02 0.02 0 0 0 -0.014 0.008 0.05 0.05 0 0 0 -0.009 0.019 0.075 0.075 0 0 0 -0.002 0.026v0.001a0.075 0.075 0 0 0 0.006 0.024 0.046 0.046 0 0 0 0.015 0.019l-0.013 0.01 -0.01 0.007a0.087 0.087 0 0 1 -0.02 -0.03 0.138 0.138 0 0 1 -0.011 -0.048v0a0.138 0.138 0 0 1 0.006 -0.049 0.084 0.084 0 0 1 0.021 -0.036 0.045 0.045 0 0 1 0.033 -0.015 0.045 0.045 0 0 1 0.029 0.011 0.087 0.087 0 0 1 0.025 0.034c0.007 0.015 0.01 0.03 0.011 0.048v0q0.001 0.011 0 0.021" /><path fill="#202020" d="M0.976 0.542c0.001 0.004 0.008 0.004 0.012 0.006 0.003 0.002 0.006 0.006 0.01 0.006s0.009 -0.001 0.01 -0.005c0.001 -0.005 -0.006 -0.008 -0.011 -0.01 -0.006 -0.002 -0.013 -0.004 -0.019 0 -0.001 0.001 -0.003 0.002 -0.002 0.004zm-0.04 0c-0.001 0.004 -0.008 0.004 -0.012 0.006 -0.004 0.002 -0.006 0.006 -0.01 0.006 -0.004 0 -0.009 -0.001 -0.01 -0.005 -0.001 -0.005 0.006 -0.008 0.011 -0.01 0.006 -0.002 0.013 -0.004 0.019 0 0.001 0.001 0.003 0.002 0.002 0.004z" /></svg>
@@ -200,6 +213,18 @@ export default function Home() {
               <h2 className="text-4xl font-bold">Education</h2>
             </div>
             <div className="md:w-4/6 flex flex-col gap-10">
+
+              <div className="flex flex-col md:flex-row gap-10">
+                <div className="col w-full md:w-1/6">
+                  <span>2025 - Present</span>
+                </div>
+                <div className="col w-full md:w-3/6">
+                  <b className="text-lg">INFORMATICS ENGINEERING | UNDERGRADUATE</b>
+                  <p className="text-sm text-white">Institut Asia Malang</p>
+                  <p className="mt-3 text-gray-200">Currently pursuing a Bachelor's degree in Informatics Engineering with focus on software development, data structures, and system design. Strengthening academic knowledge while working on real-world projects in parallel.</p>
+                </div>
+              </div>
+
               <div className="flex flex-col md:flex-row gap-10">
                 <div className="col w-full md:w-1/6">
                   <span>2022 - 2025</span>
@@ -239,39 +264,94 @@ export default function Home() {
               <h2 className="text-4xl font-bold">Resume</h2>
             </div>
             <div className="md:w-4/6 flex flex-col gap-10">
+
+              {/* PT Pusat Andalan Sukses Terpadu */}
               <div className="flex flex-col md:flex-row gap-10">
                 <div className="col w-full md:w-1/6">
-                  <span>2024 - Present</span>
+                  <span>Apr 2025 - Present</span>
                 </div>
                 <div className="col w-full md:w-3/6">
-                  <b className="text-lg">Co Founder</b>
-                  <p className="text-sm text-white">ITMind</p>
-                  <p className="mt-3 text-gray-200">Join the forefront of the digital revolution with ITmind—an innovation shaping modern mindsets for Web 3.0 and Industry 5.0. As a remote developer, I craft boundary-breaking digital experiences, driven by a passion for cutting-edge solutions and a commitment to pioneering the future of the web.</p>
+                  <b className="text-lg">Project Lead Developer</b>
+                  <p className="text-sm text-white">PT Pusat Andalan Sukses Terpadu</p>
+                  <p className="mt-3 text-gray-200">
+                    Memimpin pengembangan produk digital perusahaan secara remote. Bertanggung jawab atas penyusunan roadmap, penetapan standar coding dan arsitektur teknis, serta berkolaborasi lintas tim termasuk UI/UX, QA, dan manajemen produk.
+                  </p>
                 </div>
               </div>
+
+              {/* Freelance */}
               <div className="flex flex-col md:flex-row gap-10">
                 <div className="col w-full md:w-1/6">
-                  <span>2021 - Present</span>
+                  <span>Jan 2019 - Present</span>
+                </div>
+                <div className="col w-full md:w-3/6">
+                  <b className="text-lg">Fullstack Web Developer</b>
+                  <p className="text-sm text-white">Self Employed (Freelance)</p>
+                  <p className="mt-3 text-gray-200">
+                    Menyediakan layanan pengembangan web fullstack dengan berbagai teknologi seperti React.js, Laravel, Node.js, Tailwind CSS, dan PostgreSQL. Fokus pada solusi web adaptif dan efisien sesuai kebutuhan klien.
+                  </p>
+                </div>
+              </div>
+
+              {/* Black Wolf Tech Indonesia */}
+              <div className="flex flex-col md:flex-row gap-10">
+                <div className="col w-full md:w-1/6">
+                  <span>Sep 2024 - Jan 2025</span>
+                </div>
+                <div className="col w-full md:w-3/6">
+                  <b className="text-lg">Web Developer</b>
+                  <p className="text-sm text-white">Black Wolf Tech Indonesia</p>
+                  <p className="mt-3 text-gray-200">
+                    Bekerja secara paruh waktu mengembangkan aplikasi web berbasis kebutuhan klien dengan menerapkan prinsip desain dan pengembangan modern.
+                  </p>
+                </div>
+              </div>
+
+              {/* CV Hummasoft Komputindo */}
+              <div className="flex flex-col md:flex-row gap-10">
+                <div className="col w-full md:w-1/6">
+                  <span>Aug 2024 - Jan 2025</span>
+                </div>
+                <div className="col w-full md:w-3/6">
+                  <b className="text-lg">Web Developer Internship</b>
+                  <p className="text-sm text-white">CV Hummasoft Komputindo</p>
+                  <p className="mt-3 text-gray-200">
+                    Magang sebagai backend web developer menggunakan Laravel dan JavaScript. Berkontribusi pada pengembangan fitur dan pemeliharaan sistem internal perusahaan.
+                  </p>
+                </div>
+              </div>
+
+              {/* Co-Founder iTmind */}
+              <div className="flex flex-col md:flex-row gap-10">
+                <div className="col w-full md:w-1/6">
+                  <span>Oct 2023 - Jun 2024</span>
+                </div>
+                <div className="col w-full md:w-3/6">
+                  <b className="text-lg">Co-Founder</b>
+                  <p className="text-sm text-white">iTmind</p>
+                  <p className="mt-3 text-gray-200">
+                    Membangun komunitas edukatif yang berfokus pada teknologi dan pengembangan keterampilan digital untuk generasi muda.
+                  </p>
+                </div>
+              </div>
+
+              {/* EX-SCIENCE */}
+              <div className="flex flex-col md:flex-row gap-10">
+                <div className="col w-full md:w-1/6">
+                  <span>Aug 2021 - May 2024</span>
                 </div>
                 <div className="col w-full md:w-3/6">
                   <b className="text-lg">Web Developer</b>
                   <p className="text-sm text-white">EX-SCIENCE</p>
-                  <p className="mt-3 text-gray-200">A leading technology company providing cutting-edge solutions and services tailored to various industries. With our experienced team, we&apos;re committed to delivering high-quality products and staying ahead of technological advancements. Our mission is to help clients achieve their goals with top-notch technology solutions, globally accessible services, and continuous innovation.</p>
-                </div>
-              </div>
-              <div className="flex flex-col md:flex-row gap-10">
-                <div className="col w-full md:w-1/6">
-                  <span>2019 - Present</span>
-                </div>
-                <div className="col w-full md:w-3/6">
-                  <b className="text-lg">FREELANCE</b>
-                  <p className="text-sm text-white">Remote Freelance Web Developer</p>
-                  <p className="mt-3 text-gray-200">Experienced remote web developer with flexibility to work from anywhere. Committed to delivering high-quality, innovative solutions tailored to client needs. Strong ability to adapt and work independently or collaboratively. Continuously expanding knowledge in cutting-edge web technologies.</p>
+                  <p className="mt-3 text-gray-200">
+                    Mengembangkan berbagai aplikasi internal dan eksternal perusahaan menggunakan Laravel, PHP, JavaScript, dan MySQL. Fokus pada solusi fullstack berbasis kebutuhan industri.
+                  </p>
                 </div>
               </div>
 
             </div>
           </div>
+
           <hr className="border-gray-600 my-20" id="skills" />
           <h2 className="text-4xl font-bold text-center">Skills & Experience</h2>
           <div className="grid grid-cols-3 md:grid-cols-6 mt-7 gap-5 md:gap-10">
@@ -874,8 +954,21 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Tombol More */}
+          <div className="text-center mt-10">
+            <a
+              href="https://www.linkedin.com/in/muhammad-khoyron-ahlaqul-firdaus-b09544208/details/projects/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block  text-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition-colors"
+            >
+              More Projects on LinkedIn →
+            </a>
+          </div>
+
+
           <hr className="border-gray-600 my-20" id="achivement" />
-          <h2 className="text-4xl font-bold text-center mt-24">Sertifikat</h2>
+          <h2 className="text-4xl font-bold text-center mt-24">Certification & Licence</h2>
           <div className="masonry mt-8">
             <div className="masonry-item">
               <Image src={'/assets/sertifikat/Sertifikat1.jpg'} alt="Sertifikat 1" width={1000} height={500} className="rounded-lg hover:scale-105 transition-all duration-200" />
@@ -900,7 +993,17 @@ export default function Home() {
             </div>
           </div>
 
-
+          {/* Tombol More */}
+          <div className="text-center mt-10">
+            <a
+              href="https://drive.google.com/drive/u/0/folders/1BBULOyTmHyKtjz1F1RZEV9GMIEd6jdVP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block  text-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition-colors"
+            >
+              More Certification & Licence on Drive →
+            </a>
+          </div>
         </div>
       </main >
 
