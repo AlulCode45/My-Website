@@ -221,7 +221,7 @@ export default function Home() {
                 <div className="col w-full md:w-3/6">
                   <b className="text-lg">INFORMATICS ENGINEERING | UNDERGRADUATE</b>
                   <p className="text-sm text-white">Institut Asia Malang</p>
-                  <p className="mt-3 text-gray-200">Currently pursuing a Bachelor's degree in Informatics Engineering with focus on software development, data structures, and system design. Strengthening academic knowledge while working on real-world projects in parallel.</p>
+                  <p className="mt-3 text-gray-200">Currently pursuing a Bachelor&apos;s degree in Informatics Engineering with focus on software development, data structures, and system design. Strengthening academic knowledge while working on real-world projects in parallel.</p>
                 </div>
               </div>
 
