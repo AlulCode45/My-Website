@@ -274,7 +274,7 @@ export default function Home() {
                   <b className="text-lg">Project Lead Developer</b>
                   <p className="text-sm text-white">PT Pusat Andalan Sukses Terpadu</p>
                   <p className="mt-3 text-gray-200">
-                    Memimpin pengembangan produk digital perusahaan secara remote. Bertanggung jawab atas penyusunan roadmap, penetapan standar coding dan arsitektur teknis, serta berkolaborasi lintas tim termasuk UI/UX, QA, dan manajemen produk.
+                    Leading the development of the company&apos;s digital products remotely. Responsible for defining the technical roadmap, establishing coding standards and architectural guidelines, and collaborating across teams including UI/UX, QA, and product management.
                   </p>
                 </div>
               </div>
@@ -286,9 +286,9 @@ export default function Home() {
                 </div>
                 <div className="col w-full md:w-3/6">
                   <b className="text-lg">Fullstack Web Developer</b>
-                  <p className="text-sm text-white">Self Employed (Freelance)</p>
+                  <p className="text-sm text-white">Self-Employed (Freelance)</p>
                   <p className="mt-3 text-gray-200">
-                    Menyediakan layanan pengembangan web fullstack dengan berbagai teknologi seperti React.js, Laravel, Node.js, Tailwind CSS, dan PostgreSQL. Fokus pada solusi web adaptif dan efisien sesuai kebutuhan klien.
+                    Providing fullstack web development services using various technologies such as React.js, Laravel, Node.js, Tailwind CSS, and PostgreSQL. Focused on delivering adaptive and efficient web solutions tailored to client needs.
                   </p>
                 </div>
               </div>
@@ -302,7 +302,7 @@ export default function Home() {
                   <b className="text-lg">Web Developer</b>
                   <p className="text-sm text-white">Black Wolf Tech Indonesia</p>
                   <p className="mt-3 text-gray-200">
-                    Bekerja secara paruh waktu mengembangkan aplikasi web berbasis kebutuhan klien dengan menerapkan prinsip desain dan pengembangan modern.
+                    Worked part-time to develop client-focused web applications by applying modern development and design principles.
                   </p>
                 </div>
               </div>
@@ -313,10 +313,10 @@ export default function Home() {
                   <span>Aug 2024 - Jan 2025</span>
                 </div>
                 <div className="col w-full md:w-3/6">
-                  <b className="text-lg">Web Developer Internship</b>
+                  <b className="text-lg">Web Developer Intern</b>
                   <p className="text-sm text-white">CV Hummasoft Komputindo</p>
                   <p className="mt-3 text-gray-200">
-                    Magang sebagai backend web developer menggunakan Laravel dan JavaScript. Berkontribusi pada pengembangan fitur dan pemeliharaan sistem internal perusahaan.
+                    Interned as a backend web developer using Laravel and JavaScript. Contributed to feature development and maintenance of the company&apos;s internal systems.
                   </p>
                 </div>
               </div>
@@ -330,7 +330,7 @@ export default function Home() {
                   <b className="text-lg">Co-Founder</b>
                   <p className="text-sm text-white">iTmind</p>
                   <p className="mt-3 text-gray-200">
-                    Membangun komunitas edukatif yang berfokus pada teknologi dan pengembangan keterampilan digital untuk generasi muda.
+                    Co-founded an educational community focused on technology and digital skill development for the younger generation.
                   </p>
                 </div>
               </div>
@@ -344,7 +344,7 @@ export default function Home() {
                   <b className="text-lg">Web Developer</b>
                   <p className="text-sm text-white">EX-SCIENCE</p>
                   <p className="mt-3 text-gray-200">
-                    Mengembangkan berbagai aplikasi internal dan eksternal perusahaan menggunakan Laravel, PHP, JavaScript, dan MySQL. Fokus pada solusi fullstack berbasis kebutuhan industri.
+                    Developed various internal and external company applications using Laravel, PHP, JavaScript, and MySQL. Focused on delivering fullstack solutions based on industry demands.
                   </p>
                 </div>
               </div>
