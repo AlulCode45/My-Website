@@ -9,10 +9,10 @@ export default function ProjectChapters() {
   const [activeProject, setActiveProject] = useState<ProjectItem | null>(null);
 
   // 4 flagship projects with alternating visual compositions:
-  // 01: PT PAS (Full-bleed architectural visual + narrative)
-  // 02: ASPIKOM (Asymmetric split with prominent vertical screenshot)
-  // 03: EduGeografi (Text-dominant editorial with preview card)
-  // 04: Hardware E-Commerce (Horizontal widescreen showcase)
+  // 01: ATraderTerminal (Full-bleed architectural visual + narrative)
+  // 02: Boostera (Asymmetric split with prominent visual & AI features)
+  // 03: Malang Alam Property (Text-dominant editorial with visual showcase)
+  // 04: JagatByte (Horizontal widescreen digital product showcase)
   const projects = projectsList.slice(0, 4);
 
   return (
@@ -32,22 +32,22 @@ export default function ProjectChapters() {
         </div>
 
         <p className="max-w-md text-sm sm:text-base text-[#6A6372] leading-relaxed font-sans">
-          Four distinct systems built for real-world operations—from national association infrastructure and enterprise tax automation to geospatial education.
+          Four distinct systems built for real-world operations—from financial market intelligence and AI platforms for MSMEs to curated real estate and future-ready digital product studios.
         </p>
       </div>
 
       {/* Alternating Project Chapters */}
       <div className="divide-y divide-[#110A13]/10">
-        {/* CHAPTER 01: PT PAS */}
+        {/* CHAPTER 01: ATraderTerminal */}
         {projects[0] && (
           <article className="py-20 sm:py-28 group">
             <div className="flex items-baseline justify-between mb-8">
               <div className="flex items-center gap-4">
                 <span className="font-mono text-xs text-brand-purple font-semibold">
-                  01 / ENTERPRISE CORE
+                  01 / FINANCIAL INTELLIGENCE
                 </span>
                 <span className="text-xs font-mono text-[#6A6372] uppercase tracking-wider">
-                  PT PUSAT ANDALAN SUKSES
+                  ATRADERTERMINAL PRO
                 </span>
               </div>
               <span className="font-mono text-xs text-[#6A6372]">{projects[0].year} • PRODUCTION</span>
@@ -104,7 +104,7 @@ export default function ProjectChapters() {
                 onClick={() => setActiveProject(projects[0])}
                 className="inline-flex items-center gap-2 font-display text-sm font-semibold text-[#110A13] hover:text-brand-purple transition-colors"
               >
-                <span>Read Full Technical Architecture</span>
+                <span>Read Financial Terminal Architecture</span>
                 <span className="font-mono">→</span>
               </button>
               <span className="font-mono text-xs text-[#6A6372]">
@@ -114,16 +114,16 @@ export default function ProjectChapters() {
           </article>
         )}
 
-        {/* CHAPTER 02: ASPIKOM */}
+        {/* CHAPTER 02: Boostera */}
         {projects[1] && (
           <article className="py-20 sm:py-28 group">
             <div className="flex items-baseline justify-between mb-8">
               <div className="flex items-center gap-4">
                 <span className="font-mono text-xs text-brand-purple font-semibold">
-                  02 / NATIONAL INFRASTRUCTURE
+                  02 / AI MARKETING SUITE
                 </span>
                 <span className="text-xs font-mono text-[#6A6372] uppercase tracking-wider">
-                  ASPIKOM PUSAT
+                  BOOSTERA INDONESIA
                 </span>
               </div>
               <span className="font-mono text-xs text-[#6A6372]">{projects[1].year} • PRODUCTION</span>
@@ -162,7 +162,7 @@ export default function ProjectChapters() {
                     onClick={() => setActiveProject(projects[1])}
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#110A13] text-white hover:bg-brand-purple transition-colors font-medium text-xs tracking-wide"
                   >
-                    <span>Read National Scale Architecture</span>
+                    <span>Read AI Suite Architecture</span>
                     <span className="font-mono">→</span>
                   </button>
                 </div>
@@ -183,16 +183,16 @@ export default function ProjectChapters() {
           </article>
         )}
 
-        {/* CHAPTER 03: EduGeografi */}
+        {/* CHAPTER 03: Malang Alam Property */}
         {projects[2] && (
           <article className="py-20 sm:py-28 group">
             <div className="flex items-baseline justify-between mb-8">
               <div className="flex items-center gap-4">
                 <span className="font-mono text-xs text-brand-purple font-semibold">
-                  03 / GEOSPATIAL PLATFORM
+                  03 / CURATED REAL ESTATE
                 </span>
                 <span className="text-xs font-mono text-[#6A6372] uppercase tracking-wider">
-                  INTERACTIVE EDUCATION
+                  MALANG ALAM PROPERTY
                 </span>
               </div>
               <span className="font-mono text-xs text-[#6A6372]">{projects[2].year} • LIVE</span>
@@ -238,7 +238,7 @@ export default function ProjectChapters() {
                     onClick={() => setActiveProject(projects[2])}
                     className="inline-flex items-center gap-2 font-display text-sm font-semibold text-[#110A13] hover:text-brand-purple transition-colors"
                   >
-                    <span>Read Geospatial Case Study</span>
+                    <span>Read Real Estate Platform Specs</span>
                     <span className="font-mono">→</span>
                   </button>
                 </div>
@@ -247,19 +247,19 @@ export default function ProjectChapters() {
           </article>
         )}
 
-        {/* CHAPTER 04: Hardware E-Commerce */}
+        {/* CHAPTER 04: JagatByte */}
         {projects[3] && (
           <article className="py-20 sm:py-28 group">
             <div className="flex items-baseline justify-between mb-8">
               <div className="flex items-center gap-4">
                 <span className="font-mono text-xs text-brand-purple font-semibold">
-                  04 / COMMERCIAL PLATFORM
+                  04 / DIGITAL PRODUCT STUDIO
                 </span>
                 <span className="text-xs font-mono text-[#6A6372] uppercase tracking-wider">
-                  HIGH-SPEED E-COMMERCE
+                  JAGATBYTE STUDIO
                 </span>
               </div>
-              <span className="font-mono text-xs text-[#6A6372]">{projects[3].year} • ARCHITECTURE</span>
+              <span className="font-mono text-xs text-[#6A6372]">{projects[3].year} • PRODUCTION</span>
             </div>
 
             <div className="space-y-6 mb-10">
@@ -299,7 +299,7 @@ export default function ProjectChapters() {
                 onClick={() => setActiveProject(projects[3])}
                 className="inline-flex items-center gap-2 font-display text-sm font-semibold text-[#110A13] hover:text-brand-purple transition-colors"
               >
-                <span>Read E-Commerce Engine Specs</span>
+                <span>Read Digital Product Architecture</span>
                 <span className="font-mono">→</span>
               </button>
             </div>

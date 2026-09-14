@@ -111,7 +111,7 @@ export default function EditorialHero() {
           <span className="font-mono text-[10px] uppercase tracking-widest text-[#110A13]/40 block mb-1">
             FLAGSHIP ARCHITECTURE
           </span>
-          <span className="font-medium text-[#110A13]">PT PAS Enterprise Tax Platform</span>
+          <span className="font-medium text-[#110A13]">ATraderTerminal & Boostera AI</span>
         </div>
         <div>
           <span className="font-mono text-[10px] uppercase tracking-widest text-[#110A13]/40 block mb-1">
