@@ -24,7 +24,7 @@ export default function EditorialAbout() {
 
           <div className="hidden lg:block pt-16">
             <p className="font-mono text-[11px] uppercase tracking-widest text-[#6A6372] mb-2">
-              ALUL (MUHAMMAD KHOYRON)
+              ALULCODE (MUHAMMAD KHOYRON)
             </p>
             <p className="text-xs text-[#6A6372] leading-relaxed">
               Fullstack Developer & System Architect based in Malang, Indonesia.

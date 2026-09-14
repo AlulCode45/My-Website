@@ -53,7 +53,7 @@ export default function EditorialNav() {
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-sm tracking-tight text-[#110A13]">
-                Alul
+                AlulCode
               </span>
               <span className="font-mono text-[9px] uppercase tracking-widest text-[#6A6372]">
                 AC Studio

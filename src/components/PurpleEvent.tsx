@@ -109,7 +109,7 @@ export default function PurpleEvent() {
                 MUHAMMAD KHOYRON AHLAQUL FIRDAUS
               </p>
               <p className="font-mono text-xs text-white/70">
-                Alul • Engineering Discipline • Malang, ID
+                AlulCode • Engineering Discipline • Malang, ID
               </p>
             </div>
           </div>

@@ -72,7 +72,7 @@ export interface StackLayer {
 
 export const personalInfo = {
   name: "Muhammad Khoyron Ahlaqul Firdaus",
-  nickname: "Alul",
+  nickname: "AlulCode",
   codeHandle: "AlulCode",
   role: "Project Lead Developer & Fullstack Software Engineer",
   location: "Malang, East Java, Indonesia [7.98° S, 112.63° E]",

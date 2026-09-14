@@ -17,7 +17,7 @@ export default function StudioFooter() {
           />
         </div>
         <span className="font-display font-bold text-sm text-[#110A13]">
-          Alul (Muhammad Khoyron Ahlaqul Firdaus)
+          AlulCode (Muhammad Khoyron Ahlaqul Firdaus)
         </span>
       </div>
 

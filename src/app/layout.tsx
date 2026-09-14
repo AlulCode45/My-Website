@@ -26,12 +26,11 @@ const techMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://alulcode.my.id"),
-  title: "Muhammad Khoyron Ahlaqul Firdaus (Alul) — Fullstack Web Developer",
+  title: "Muhammad Khoyron Ahlaqul Firdaus (AlulCode) — Fullstack Web Developer",
   description:
-    "Editorial portfolio of Muhammad Khoyron Ahlaqul Firdaus (Alul). Fullstack Web Developer designing and building resilient, high-fidelity digital platforms. Laravel, React, Next.js, PostgreSQL, Docker.",
+    "Editorial portfolio of Muhammad Khoyron Ahlaqul Firdaus (AlulCode). Fullstack Web Developer designing and building resilient, high-fidelity digital platforms. Laravel, React, Next.js, PostgreSQL, Docker.",
   keywords: [
     "Muhammad Khoyron Ahlaqul Firdaus",
-    "Alul",
     "AlulCode",
     "AC Monogram",
     "Fullstack Web Developer",
@@ -48,15 +47,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "id_ID",
     url: "https://alulcode.my.id",
-    title: "Muhammad Khoyron Ahlaqul Firdaus (Alul) — Fullstack Web Developer",
+    title: "Muhammad Khoyron Ahlaqul Firdaus (AlulCode) — Fullstack Web Developer",
     description:
       "Fullstack Web Developer designing and building resilient, high-fidelity digital systems. Exploring the boundary between design and engineering.",
-    siteName: "Muhammad Khoyron (AC)",
+    siteName: "Muhammad Khoyron (AlulCode - AC)",
     images: [{ url: "/assets/icon 1@2x.png", width: 800, height: 800, alt: "AC Monogram Logo" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Khoyron Ahlaqul Firdaus (Alul) — Fullstack Web Developer",
+    title: "Muhammad Khoyron Ahlaqul Firdaus (AlulCode) — Fullstack Web Developer",
     description: "Fullstack Web Developer designing and building resilient digital platforms.",
     images: ["/assets/icon 1@2x.png"],
   },

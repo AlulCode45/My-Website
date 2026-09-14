@@ -70,7 +70,7 @@ export default function ClosingDispatch() {
                 Muhammad Khoyron Ahlaqul Firdaus
               </p>
               <p className="font-mono text-xs text-[#6A6372]">
-                Alul • Malang, East Java, Indonesia (UTC+7)
+                AlulCode • Malang, East Java, Indonesia (UTC+7)
               </p>
             </div>
           </div>
