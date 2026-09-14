@@ -2,102 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  --brand-purple: #9814DC;
+  --brand-magenta: #C71FE2;
+  --brand-lavender: #E2A9F0;
+  --brand-night: #110A13;
+
+  --bg-editorial: #F7F5F8;
+  --ink-editorial: #110A13;
+  --muted-editorial: #6A6372;
 }
 
-/* @media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
-    }
-} */
-
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+  color-scheme: light dark;
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(to bottom,
-            transparent,
-            rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-editorial);
+  color: var(--ink-editorial);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.glow-decorator1 {
-    -webkit-backdrop-filter: blur(0px);
-    -webkit-filter: blur(100px);
-    backdrop-filter: blur(0px);
-    background: linear-gradient(180deg, #57aae6 0%, rgb(217, 139, 186) 100%);
-    border-radius: 1000px;
-    filter: blur(100px);
-    flex: none;
-    height: 555px;
-    left: -234px;
-    opacity: .19;
-    position: absolute;
-    top: 202px;
-    width: 578px;
-    z-index: 1;
+/* Subtle editorial paper grain */
+.paper-grain {
+  background-image: radial-gradient(rgba(17, 10, 19, 0.035) 1px, transparent 0);
+  background-size: 24px 24px;
 }
 
-.glow-decorator2 {
-    -webkit-backdrop-filter: blur(0px);
-    -webkit-filter: blur(100px);
-    backdrop-filter: blur(0px);
-    background: linear-gradient(180deg, #57aae6 0%, rgb(217, 139, 186) 100%);
-    border-radius: 119px;
-    filter: blur(100px);
-    flex: none;
-    height: 416px;
-    opacity: .19;
-    position: absolute;
-    right: -82px;
-    top: 104px;
-    width: 414px;
-    z-index: 1
+/* Precision refined scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
 }
 
-@layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
+::-webkit-scrollbar-track {
+  background: #F7F5F8;
 }
 
-.masonry {
-    column-gap: 2rem;
-    /* Adjust the gap between columns as needed */
+::-webkit-scrollbar-thumb {
+  background: rgba(152, 20, 220, 0.35);
+  border-radius: 9999px;
 }
 
-.masonry-item {
-    break-inside: avoid;
-    margin-bottom: 2rem;
-    /* Adjust the bottom margin as needed */
+::-webkit-scrollbar-thumb:hover {
+  background: #9814DC;
 }
 
-/* Responsive masonry columns */
-@media (min-width: 640px) {
-    .masonry {
-        column-count: 2;
-    }
+/* Focus styles for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid #C71FE2;
+  outline-offset: 3px;
 }
 
-@media (min-width: 768px) {
-    .masonry {
-        column-count: 3;
-    }
-}
-
-@media (min-width: 1024px) {
-    .masonry {
-        column-count: 3;
-    }
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
