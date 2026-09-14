@@ -56,13 +56,13 @@ export default function ClosingDispatch() {
         {/* Right Column: Direct Channels & Studio Metadata */}
         <div className="lg:col-span-5 p-8 sm:p-10 rounded-2xl bg-white border border-[#110A13]/10 shadow-sm space-y-8">
           <div className="flex items-center gap-4 pb-6 border-b border-[#110A13]/10">
-            <div className="w-12 h-12 rounded-full overflow-hidden bg-brand-purple/10 flex items-center justify-center">
+            <div className="relative w-12 h-12 flex items-center justify-center flex-shrink-0">
               <Image
                 src="/assets/icon 1@2x.png"
                 alt="AC Logo"
                 width={48}
                 height={48}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div>

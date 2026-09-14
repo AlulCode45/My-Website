@@ -41,13 +41,13 @@ export default function EditorialNav() {
             className="group flex items-center gap-3.5 focus:outline-none"
             aria-label="Return to top"
           >
-            <div className="relative w-8 h-8 rounded-full overflow-hidden bg-brand-purple/10 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+            <div className="relative w-8 h-8 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-105">
               <Image
                 src="/assets/icon 1@2x.png"
                 alt="AC Monogram"
                 width={32}
                 height={32}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 priority
               />
             </div>

@@ -95,10 +95,10 @@ export default function PurpleEvent() {
         {/* Large Monogram Emblem Center */}
         <div className="mt-16 pt-12 border-t border-white/20 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">
-            <div className="w-14 h-14 rounded-full bg-white/20 p-2 flex items-center justify-center">
+            <div className="relative w-12 h-12 flex-shrink-0 drop-shadow-md">
               <Image
                 src="/assets/icon 1@2x.png"
-                alt="AC Monogram White"
+                alt="AC Monogram"
                 width={48}
                 height={48}
                 className="w-full h-full object-contain"

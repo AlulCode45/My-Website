@@ -59,13 +59,13 @@ export default function EditorialHero() {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
             className="space-y-6"
           >
-            {/* Cropped AC visual motif */}
-            <div className="w-20 h-20 rounded-2xl p-2 bg-gradient-to-br from-brand-purple to-brand-magenta shadow-xl shadow-brand-purple/15 flex items-center justify-center">
+            {/* Pure AC visual motif */}
+            <div className="relative w-20 h-20 flex items-center justify-center flex-shrink-0">
               <Image
                 src="/assets/icon 1@2x.png"
                 alt="AC Identity"
-                width={64}
-                height={64}
+                width={80}
+                height={80}
                 className="w-full h-full object-contain"
               />
             </div>
