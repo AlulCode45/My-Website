@@ -7,6 +7,7 @@ import ProjectChapters from "@/components/ProjectChapters";
 import TechAndLab from "@/components/TechAndLab";
 import FieldNotes from "@/components/FieldNotes";
 import ExperienceList from "@/components/ExperienceList";
+import ActivityGallery from "@/components/ActivityGallery";
 import ClosingDispatch from "@/components/ClosingDispatch";
 import StudioFooter from "@/components/StudioFooter";
 
@@ -22,6 +23,7 @@ export default function Home() {
         <TechAndLab />
         <FieldNotes />
         <ExperienceList />
+        <ActivityGallery />
         <ClosingDispatch />
       </main>
       <StudioFooter />

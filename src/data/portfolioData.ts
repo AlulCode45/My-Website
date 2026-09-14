@@ -57,6 +57,19 @@ export interface CertificateItem {
   credentialNote?: string;
 }
 
+export interface ActivityItem {
+  id: number;
+  title: string;
+  event: string;
+  role: string;
+  category: "Seminar" | "Workshop" | "Tech Talk" | "Kompetisi";
+  date: string;
+  location: string;
+  image: string;
+  description: string;
+  tags: string[];
+}
+
 export interface StackLayer {
   layerId: string;
   title: string;
@@ -501,62 +514,135 @@ export const certificateList: CertificateItem[] = [
   {
     id: 1,
     title: "Penghargaan Responsible Vulnerability Disclosure (Bug Hunter)",
-    issuer: "Security Assessment & Responsible Disclosure Recognition",
+    issuer: "Amanah Solution — Security Assessment",
     category: "Security",
     year: "2024",
     image: "/assets/sertifikat/Sertifikat6.jpg",
     highlight: "Pelaporan Celah Keamanan Terverifikasi",
-    credentialNote: "Pengakuan etis atas identifikasi dan pelaporan kerentanan keamanan web secara bertanggung jawab sesuai prinsip disclosure.",
+    credentialNote: "Apresiasi resmi atas identifikasi dan pelaporan celah keamanan secara etis dan bertanggung jawab.",
   },
   {
     id: 2,
-    title: "Penghargaan Siswa Berprestasi Dinas Pendidikan Jawa Timur",
+    title: "Juara 1 Web Development Lomba Technifest 2022",
+    issuer: "Fakultas Teknik Universitas Negeri Jakarta (UNJ)",
+    category: "Kompetisi",
+    year: "2022",
+    image: "/assets/sertifikat/Sertifikat4.png",
+    highlight: "Juara 1 Tingkat Nasional",
+    credentialNote: "Juara 1 kompetisi rekayasa web yang diselenggarakan oleh BEM FT Universitas Negeri Jakarta.",
+  },
+  {
+    id: 3,
+    title: "Juara 1 Web Technology LKS SMK Tingkat Kabupaten",
+    issuer: "Cabang Dinas Pendidikan Wilayah Bojonegoro",
+    category: "Pemerintah",
+    year: "2024",
+    image: "/assets/sertifikat/Sertifikat5.jpg",
+    highlight: "Juara 1 LKS Web Technology",
+    credentialNote: "Predikat Juara 1 pada Lomba Kompetensi Siswa (LKS) SMK bidang Web Technology se-Kabupaten Bojonegoro.",
+  },
+  {
+    id: 4,
+    title: "Juara 1 Web Development SMA/SMK ICONFEST 1.0",
+    issuer: "HIMAFOR Universitas Muhammadiyah Semarang",
+    category: "Kompetisi",
+    year: "2023",
+    image: "/assets/sertifikat/Sertifikat3.png",
+    highlight: "Juara 1 ICONFEST 1.0",
+    credentialNote: "Penghargaan terbaik atas inovasi dan kualitas kode antarmuka pada Informatics Connection Festival.",
+  },
+  {
+    id: 5,
+    title: "Juara 3 Web Dev Competition Nasional IDN IT FEST",
+    issuer: "SMK IDN Boarding School Jonggol — Tim Kuat Iman",
+    category: "Kompetisi",
+    year: "2023",
+    image: "/assets/sertifikat/Sertifikat2.jpg",
+    highlight: "Juara 3 Nasional IDN IT Fest",
+    credentialNote: "Peringkat ketiga dalam kompetisi rekayasa web nasional yang menguji arsitektur dan responsivitas sistem.",
+  },
+  {
+    id: 6,
+    title: "Peserta LKS SMK Tingkat Provinsi Jawa Timur Ke-32",
     issuer: "Dinas Pendidikan Provinsi Jawa Timur",
     category: "Pemerintah",
     year: "2024",
     image: "/assets/sertifikat/Sertifikat1.jpg",
-    highlight: "Apresiasi Resmi Pemprov Jatim",
-    credentialNote: "Penghargaan tingkat provinsi atas prestasi konsisten dalam kejuruan Rekayasa Perangkat Lunak dan teknologi informasi.",
+    highlight: "Finalis LKS Provinsi Jatim",
+    credentialNote: "Delegasi resmi Kabupaten Bojonegoro pada ajang LKS SMK Tingkat Provinsi Jawa Timur bidang Web Technologies.",
   },
   {
-    id: 3,
-    title: "Juara III Web Development Competition Tingkat Nasional",
-    issuer: "National Web Dev Competition — Tim Kuat Iman",
-    category: "Kompetisi",
-    year: "2024",
-    image: "/assets/sertifikat/Sertifikat2.jpg",
-    highlight: "Juara 3 Tingkat Nasional",
-    credentialNote: "Peringkat ketiga dalam kompetisi rekayasa web nasional yang menguji arsitektur, responsivitas, dan pemecahan masalah teknis.",
-  },
-  {
-    id: 4,
-    title: "Juara Lomba Web Development SMA/SMK — ICONFEST",
-    issuer: "ICONFEST — HIMAFOR Informatics Study Club",
-    category: "Kompetisi",
-    year: "2023",
-    image: "/assets/sertifikat/Sertifikat3.png",
-    highlight: "Peringkat Terbaik Web Dev",
-    credentialNote: "Penghargaan tertinggi atas inovasi produk digital dan kualitas kode antarmuka web.",
-  },
-  {
-    id: 5,
-    title: "Piagam Prestasi Bidang Keahlian Rekayasa Perangkat Lunak",
-    issuer: "SMK Negeri 4 Bojonegoro",
-    category: "Akademik",
-    year: "2024",
-    image: "/assets/sertifikat/Sertifikat5.jpg",
-    highlight: "Siswa Berprestasi Jurusan RPL",
-    credentialNote: "Predikat A mutlak pada Algoritma, Struktur Data, OOP, dan Pemrograman Web.",
-  },
-  {
-    id: 6,
-    title: "Sertifikat Schematics National Tech Competition",
-    issuer: "Institut Teknologi Sepuluh Nopember (ITS)",
+    id: 7,
+    title: "Finalis Schematics National Programming Contest Junior",
+    issuer: "Departemen Teknik Informatika ITS Surabaya",
     category: "Kompetisi",
     year: "2023",
     image: "/assets/sertifikat/Sertifikat7.jpg",
     highlight: "Schematics ITS Surabaya",
-    credentialNote: "Partisipasi dan seleksi kompetisi teknologi komputasi nasional bergengsi.",
+    credentialNote: "Partisipasi dan seleksi kompetisi pemrograman nasional bergengsi HMTC Institut Teknologi Sepuluh Nopember.",
+  },
+];
+
+export const activityGalleryList: ActivityItem[] = [
+  {
+    id: 1,
+    title: "National Tech Seminar & Web Architecture Forum",
+    event: "ICONFEST Informatics Symposium",
+    role: "Speaker & Participant",
+    category: "Seminar",
+    date: "2024",
+    location: "Semarang, Indonesia",
+    image: "/assets/sertifikat/Sertifikat3.png",
+    description: "Diskusi dan sesi pemaparan mengenai evolusi arsitektur web modern, integrasi REST API berbasis Laravel, dan optimasi runtime frontend.",
+    tags: ["Web Architecture", "Frontend Systems", "API Contracts"],
+  },
+  {
+    id: 2,
+    title: "National Web Engineering Workshop & Competition",
+    event: "Technifest BEM FT UNJ",
+    role: "Juara 1 & Presenter Solusi",
+    category: "Workshop",
+    date: "2022",
+    location: "Jakarta, Indonesia",
+    image: "/assets/sertifikat/Sertifikat4.png",
+    description: "Sesi workshop teknis dan presentasi produk rekayasa web mengenai performa aplikasi interaktif dan arsitektur data responsif.",
+    tags: ["Fullstack Web", "UI Engineering", "Performance"],
+  },
+  {
+    id: 3,
+    title: "Responsible Vulnerability Disclosure Briefing",
+    event: "Amanah Solution Security Audit Forum",
+    role: "Security Researcher / Bug Hunter",
+    category: "Tech Talk",
+    date: "2024",
+    location: "Indonesia",
+    image: "/assets/sertifikat/Sertifikat6.jpg",
+    description: "Dokumentasi pelaporan etis kerentanan sistem, analisis vektor ancaman web, dan langkah remediasi mitigasi celah keamanan aplikasi.",
+    tags: ["AppSec", "Responsible Disclosure", "Security"],
+  },
+  {
+    id: 4,
+    title: "Lomba Kompetensi Siswa Web Technologies Championship",
+    event: "LKS Provinsi Jawa Timur Ke-32",
+    role: "Kontingen Web Technologies",
+    category: "Kompetisi",
+    date: "2024",
+    location: "Surabaya, Jawa Timur",
+    image: "/assets/sertifikat/Sertifikat1.jpg",
+    description: "Dokumentasi kejuaraan rekayasa web tingkat provinsi yang menguji kecepatan implementasi fullstack, arsitektur database, dan kepatuhan standar web.",
+    tags: ["Web Technologies", "Speed Coding", "Database Modeling"],
+  },
+  {
+    id: 5,
+    title: "National Programming Contest & IT Fest Gathering",
+    event: "IDN IT FEST & Schematics ITS",
+    role: "Juara 3 & Delegasi Teknis",
+    category: "Kompetisi",
+    date: "2023",
+    location: "Surabaya & Jonggol",
+    image: "/assets/sertifikat/Sertifikat2.jpg",
+    description: "Forum bertukar wawasan teknis antar developer muda nasional, pemecahan masalah algoritma, dan arsitektur sistem berbasis cloud.",
+    tags: ["Algorithms", "Problem Solving", "Collaboration"],
   },
 ];
 

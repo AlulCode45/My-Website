@@ -22,6 +22,7 @@ export default function EditorialNav() {
     { label: "About & Thesis", href: "#about" },
     { label: "The Lab", href: "#lab" },
     { label: "Experience", href: "#experience" },
+    { label: "Activity Gallery", href: "#gallery" },
     { label: "Contact", href: "#contact" },
   ];
 
