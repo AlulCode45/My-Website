@@ -117,7 +117,7 @@ export default function EditorialHero() {
           <span className="font-mono text-[10px] uppercase tracking-widest text-[#110A13]/40 block mb-1">
             FOUNDATION
           </span>
-          <span className="font-medium text-[#110A13]">B.S. Informatics, UMM (3.86/4.0)</span>
+          <span className="font-medium text-[#110A13]">Informatics, Institut Asia Malang</span>
         </div>
         <div>
           <span className="font-mono text-[10px] uppercase tracking-widest text-[#110A13]/40 block mb-1">
