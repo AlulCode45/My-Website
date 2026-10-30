@@ -60,7 +60,7 @@ export default function ProjectChapters() {
         </div>
 
         <p className="max-w-md text-sm sm:text-base text-[#6A6372] leading-relaxed font-sans">
-          Four distinct systems built for real-world operations—from financial market intelligence and AI platforms for MSMEs to curated real estate and future-ready digital product studios.
+          Four distinct systems built for real-world operations—from financial market intelligence and AI platforms for MSMEs to curated real estate and my own founded digital product startup.
         </p>
       </div>
 
@@ -425,13 +425,13 @@ export default function ProjectChapters() {
             <div className="flex items-baseline justify-between mb-8">
               <div className="flex items-center gap-4">
                 <span className="font-mono text-xs text-brand-purple font-semibold">
-                  04 / DIGITAL PRODUCT STUDIO
+                  04 / FOUNDED DIGITAL STARTUP
                 </span>
                 <span className="text-xs font-mono text-[#6A6372] uppercase tracking-wider">
-                  JAGATBYTE STUDIO
+                  JAGATBYTE • FOUNDER
                 </span>
               </div>
-              <span className="font-mono text-xs text-[#6A6372]">{projects[3].year} • PRODUCTION</span>
+              <span className="font-mono text-xs text-[#6A6372]">{projects[3].year} • ACTIVE STARTUP</span>
             </div>
 
             <div className="space-y-6 mb-10">
@@ -471,7 +471,7 @@ export default function ProjectChapters() {
                 onClick={() => setActiveProject(projects[3])}
                 className="inline-flex items-center gap-2 font-display text-sm font-semibold text-[#110A13] hover:text-brand-purple transition-colors"
               >
-                <span>Read Digital Product Architecture</span>
+                <span>Read Digital Startup Architecture</span>
                 <span className="font-mono">→</span>
               </button>
             </div>
