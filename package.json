@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && cd out && zip -r ../website-shared-hosting.zip .",
     "start": "next start",
     "lint": "next lint"
   },
