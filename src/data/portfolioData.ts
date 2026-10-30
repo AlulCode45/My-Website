@@ -28,6 +28,15 @@ export interface ProjectCaseStudy {
   lessons: string;
 }
 
+export interface ProjectGalleryItem {
+  id: string;
+  title: string;
+  subtitle: string;
+  src: string;
+  tag: string;
+  description: string;
+}
+
 export interface ProjectItem {
   id: number;
   specNumber: string;
@@ -35,6 +44,7 @@ export interface ProjectItem {
   title: string;
   category: "Enterprise / ERP" | "Fullstack & APIs" | "Frontend Architecture" | "Web Application";
   image: string;
+  gallery?: ProjectGalleryItem[];
   description: string;
   technologies: string[];
   role: string;
@@ -281,16 +291,50 @@ export const projectsList: ProjectItem[] = [
     year: "2025—2026",
     title: "ATraderTerminal — Financial Market Intelligence & Macro Analytics",
     category: "Fullstack & APIs",
-    image: "/assets/projects/ATraderTerminal-Financial-Market-Intelligence-Analytics-09-14-2026_02_33_PM.png",
-    description: "Platform analitik intelijen pasar finansial dan makro ekonomi institusional real-time dengan streaming quote langsung, mesin bias makro, kalender rilis ekonomi berdampak tinggi, integrasi Gemini AI Macro Strategist, dan kluster web scraper multi-sumber.",
-    technologies: ["Next.js", "TypeScript", "WebSocket", "Tailwind CSS", "Gemini AI", "Financial APIs", "Python Scrapers"],
+    image: "/assets/projects/ATrader-Terminal-Institutional-Multi-Asset-Intelligence-DeepSeek-AI-Macro-10-30-2026_08_17_AM2.png",
+    gallery: [
+      {
+        id: "macro-intelligence",
+        title: "DeepSeek AI Macro Intelligence & CFTC COT",
+        subtitle: "Macro Regime, COT Smart Money & Predictive Models",
+        src: "/assets/projects/ATrader-Terminal-Institutional-Multi-Asset-Intelligence-DeepSeek-AI-Macro-10-30-2026_08_17_AM2.png",
+        tag: "01 / AI Macro Intelligence",
+        description: "Sintesis mendalam rezim makro ekonomi (easing cycle & debt debasement), posisi institusional COT +191,791 kontrak (net long), seasonality historis 10-th, dan transmisi katalis risiko 72 jam.",
+      },
+      {
+        id: "pattern-tracker",
+        title: "Algorithmic Pattern Tracker & Trendline Detector",
+        subtitle: "Fractal Geometry & Automated Candlestick Pattern Recognition",
+        src: "/assets/projects/ATrader-Terminal-Institutional-Multi-Asset-Intelligence-DeepSeek-AI-Macro-10-30-2026_08_17_AM.png",
+        tag: "02 / Pattern Tracker",
+        description: "Deteksi otomatis pola chart fraktal (Descending Triangle Expanding, Rejection Bar) lengkap dengan level konfirmasi breakout, target ekspansi ATR, stop loss otomatis, dan kalkulasi win rate 67-72%.",
+      },
+      {
+        id: "economic-calendar-news",
+        title: "Institutional Economic Calendar & News Wire",
+        subtitle: "High-Impact Data Releases & 24/7 Market Scraper Feed",
+        src: "/assets/projects/ATrader-Terminal-Institutional-Multi-Asset-Intelligence-DeepSeek-AI-Macro-10-30-2026_08_19_AM.png",
+        tag: "03 / Economic Calendar & News",
+        description: "Kalender rilis data ekonomi berdampak tinggi (FOMC, CPI, NFP) dengan efek deviasi actual vs forecast terhadap instrumen XAU/USD & FX, terintegrasi dengan kluster live news wire multi-sumber.",
+      },
+      {
+        id: "pro-chart-watchlist",
+        title: "Pro Candlestick Streaming & Multi-Asset Watchlist",
+        subtitle: "Sub-Second WebSocket Feed & Multi-Asset Market Stream",
+        src: "/assets/projects/ATrader-Terminal-Institutional-Multi-Asset-Intelligence-DeepSeek-AI-Macro-10-30-2026_08_20_AM.png",
+        tag: "04 / Pro Chart & Watchlist",
+        description: "Streaming quote interaktif sub-detik untuk emas XAU/USD, perak XAG/USD, COMEX Futures, indeks dolar DXY, yield US10Y, dan pasangan valas G7 dengan indikator RSI serta order flow live.",
+      },
+    ],
+    description: "Platform analitik intelijen pasar finansial dan makro ekonomi institusional real-time dengan streaming quote langsung, mesin bias makro, kalender rilis ekonomi berdampak tinggi, integrasi DeepSeek & Gemini AI Macro Strategist, dan kluster web scraper multi-sumber.",
+    technologies: ["Next.js", "TypeScript", "WebSocket", "Tailwind CSS", "DeepSeek AI", "Financial APIs", "Python Scrapers"],
     role: "Lead Fullstack Architect",
     status: "Production / Active",
     featured: true,
     scaleType: "lead",
     metrics: [
       { label: "Feed Latency", value: "< 15ms WebSocket" },
-      { label: "Intelligence Engine", value: "Gemini Macro AI" },
+      { label: "Intelligence Engine", value: "DeepSeek Macro AI" },
       { label: "Coverage", value: "XAU, FX, Crypto & Macro" },
     ],
     caseStudy: {
