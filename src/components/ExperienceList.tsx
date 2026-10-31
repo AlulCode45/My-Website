@@ -103,29 +103,42 @@ export default function ExperienceList() {
 
         {/* Selected Certifications */}
         <div className="space-y-4">
-          <span className="font-mono text-xs uppercase tracking-ultra text-brand-purple font-semibold block">
-            VERIFIED INDUSTRY CREDENTIALS
-          </span>
+          <div className="flex items-center justify-between">
+            <span className="font-mono text-xs uppercase tracking-ultra text-brand-purple font-semibold block">
+              VERIFIED INDUSTRY CREDENTIALS
+            </span>
+            <span className="font-mono text-[11px] text-[#6A6372]">
+              {certificateList.length} Dokumen Resmi
+            </span>
+          </div>
           <div className="space-y-3">
-            {certificateList.slice(0, 3).map((cert) => (
-              <div
+            {certificateList.slice(0, 4).map((cert) => (
+              <a
                 key={cert.id}
-                className="p-4 rounded-xl bg-white border border-[#110A13]/10 flex items-center justify-between"
+                href="#certificates"
+                className="group p-4 rounded-xl bg-white border border-[#110A13]/10 hover:border-brand-purple/40 hover:shadow-sm flex items-center justify-between transition-all block"
               >
-                <div>
-                  <h4 className="font-display font-semibold text-sm text-[#110A13]">
+                <div className="pr-4">
+                  <h4 className="font-display font-semibold text-sm text-[#110A13] group-hover:text-brand-purple transition-colors">
                     {cert.title}
                   </h4>
                   <span className="font-mono text-[11px] text-[#6A6372]">
                     {cert.issuer} • {cert.year}
                   </span>
                 </div>
-                <span className="font-mono text-xs text-brand-purple font-medium">
-                  {cert.highlight}
+                <span className="font-mono text-xs text-brand-purple font-medium flex-shrink-0 text-right">
+                  {cert.highlight} →
                 </span>
-              </div>
+              </a>
             ))}
           </div>
+          <a
+            href="#certificates"
+            className="inline-flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#F7F5F8] hover:bg-brand-purple hover:text-white border border-[#110A13]/10 text-[#110A13] text-xs font-mono font-medium transition-all"
+          >
+            <span>Jelajahi Seluruh {certificateList.length} Sertifikat & Dokumen Kredensial</span>
+            <span>↓</span>
+          </a>
         </div>
       </div>
     </section>

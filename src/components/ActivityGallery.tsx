@@ -22,7 +22,7 @@ export default function ActivityGallery() {
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-12 border-b border-[#110A13]/10">
         <div>
           <span className="font-mono text-xs uppercase tracking-ultra text-brand-purple font-semibold block mb-3">
-            06 / COMMUNITY & ENGAGEMENT
+            08 / COMMUNITY & ENGAGEMENT
           </span>
           <h2 className="font-display font-bold text-4xl sm:text-6xl text-[#110A13] tracking-tight">
             Seminar, Talks &{" "}

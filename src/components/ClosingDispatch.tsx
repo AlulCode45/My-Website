@@ -20,7 +20,7 @@ export default function ClosingDispatch() {
         <div className="lg:col-span-7 space-y-8">
           <div>
             <span className="font-mono text-xs uppercase tracking-ultra text-brand-purple font-semibold block mb-3">
-              07 / TRANSMISSION
+              09 / TRANSMISSION
             </span>
             <h2 className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl text-[#110A13] tracking-tight leading-tight">
               Have something

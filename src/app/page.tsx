@@ -7,6 +7,7 @@ import ProjectChapters from "@/components/ProjectChapters";
 import TechAndLab from "@/components/TechAndLab";
 import FieldNotes from "@/components/FieldNotes";
 import ExperienceList from "@/components/ExperienceList";
+import CertificatesSection from "@/components/CertificatesSection";
 import ActivityGallery from "@/components/ActivityGallery";
 import ClosingDispatch from "@/components/ClosingDispatch";
 import StudioFooter from "@/components/StudioFooter";
@@ -23,6 +24,7 @@ export default function Home() {
         <TechAndLab />
         <FieldNotes />
         <ExperienceList />
+        <CertificatesSection />
         <ActivityGallery />
         <ClosingDispatch />
       </main>
